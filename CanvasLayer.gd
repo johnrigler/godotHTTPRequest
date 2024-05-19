@@ -10,4 +10,4 @@ func _on_request_completed(result, response_code, headers, body):
 	var json = JSON.parse(body.get_string_from_utf8())
 	print(json.result)
 # Example from HTTPRequest Help
-# Outputs to Log File
+# Outputs to Message Log
